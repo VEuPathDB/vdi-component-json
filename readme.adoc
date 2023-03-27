@@ -10,11 +10,14 @@
 
 image:https://img.shields.io/github/license/{gh-group}/{gh-name}[title="License"]
 image:https://img.shields.io/badge/docs-dokka-ff69b4[link="https://{gh-group}.github.io/{gh-name}/dokka/{lib-feature}/{lib-name}/{lib-package}/index.html"]
+image:https://img.shields.io/github/v/tag/VEuPathDB/vdi-component-json[GitHub tag (latest SemVer)]
 
 Common JSON handling functionality for all VDI JVM-based projects.
 
+== Import
+
 .`build.gradle.kts`
-[source, kotlin]
+[source, kotlin, subs="attributes"]
 ----
-  implementation("org.veupathdb.vdi:vdi-component-json:1.0.0")
+  implementation("{lib-group}:{lib-name}:{lib-version}")
 ----
