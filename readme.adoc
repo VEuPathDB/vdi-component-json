@@ -1,4 +1,15 @@
 = VDI Component: JSON
+:source-highlighter: highlightjs
+:gh-group: VEuPathDB
+:gh-name: vdi-component-json
+:lib-package: org.veupathdb.vdi.lib.json
+:lib-group: org.veupathdb.vdi
+:lib-name: vdi-component-json
+:lib-version: 1.0.0
+:lib-feature: 1.0.0
+
+image:https://img.shields.io/github/license/{gh-group}/{gh-name}[title="License"]
+image:https://img.shields.io/badge/docs-dokka-ff69b4[link="https://{gh-group}.github.io/{gh-name}/dokka/{lib-feature}/{lib-name}/{lib-package}/index.html"]
 
 Common JSON handling functionality for all VDI JVM-based projects.
 
