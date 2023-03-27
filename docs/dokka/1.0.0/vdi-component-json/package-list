@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:org.veupathdb.vdi.lib.json////PointingToDeclaration/vdi-component-json/org.veupathdb.vdi.lib.json/index.html
+$dokka.location:org.veupathdb.vdi.lib.json//JSON/#/PointingToDeclaration/vdi-component-json/org.veupathdb.vdi.lib.json/-j-s-o-n.html
+$dokka.location:org.veupathdb.vdi.lib.json//toJSONString/kotlin.Any#/PointingToDeclaration/vdi-component-json/org.veupathdb.vdi.lib.json/to-j-s-o-n-string.html
+org.veupathdb.vdi.lib.json
+
