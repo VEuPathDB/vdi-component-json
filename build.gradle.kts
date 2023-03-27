@@ -25,6 +25,10 @@ kotlin {
   jvmToolchain(18)
 }
 
+java {
+  withSourcesJar()
+}
+
 tasks.dokkaHtml {
   outputDirectory.set(file("docs/dokka/${project.version}"))
 }
@@ -52,7 +56,10 @@ publishing {
   }
 
   publications {
-    withType<MavenPublication> {
+
+    create<MavenPublication>("gpr") {
+      from(components["java"])
+
       artifact(javadocJar)
 
       pom {
@@ -62,7 +69,7 @@ publishing {
 
         licenses {
           license {
-            name.set("MIT")
+            name.set("Apache-2.0")
           }
         }
 
