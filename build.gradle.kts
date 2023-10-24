@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.veupathdb.vdi"
-version = "1.0.0"
+version = "1.0.1"
 description = "JSON processing library for VDI projects"
 
 repositories {
