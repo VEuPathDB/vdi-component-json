@@ -5,7 +5,7 @@
 :lib-package: org.veupathdb.vdi.lib.json
 :lib-group: org.veupathdb.vdi
 :lib-name: vdi-component-json
-:lib-version: 1.0.0
+:lib-version: 1.0.1
 :lib-feature: 1.0.0
 
 image:https://img.shields.io/github/license/{gh-group}/{gh-name}[title="License"]
