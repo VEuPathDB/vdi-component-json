@@ -1,11 +1,11 @@
 plugins {
-  kotlin("jvm") version "1.8.10"
-  id("org.jetbrains.dokka") version "1.8.10"
+  kotlin("jvm") version "1.9.23"
+  id("org.jetbrains.dokka") version "1.9.20"
   `maven-publish`
 }
 
 group = "org.veupathdb.vdi"
-version = "1.0.1"
+version = "1.0.2"
 description = "JSON processing library for VDI projects"
 
 repositories {
@@ -13,13 +13,14 @@ repositories {
 }
 
 dependencies {
-  api("com.fasterxml.jackson.core:jackson-core:2.14.2")
-  api("com.fasterxml.jackson.core:jackson-databind:2.14.2")
-  api("com.fasterxml.jackson.core:jackson-annotations:2.14.2")
-  api("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2")
-  api("com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.2")
-  api("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.2")
-  api("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.2")}
+  api("com.fasterxml.jackson.core:jackson-core:2.17.0")
+  api("com.fasterxml.jackson.core:jackson-databind:2.17.0")
+  api("com.fasterxml.jackson.core:jackson-annotations:2.17.0")
+  api("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
+  api("com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.0")
+  api("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
+  api("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.0")
+}
 
 kotlin {
   jvmToolchain(18)
