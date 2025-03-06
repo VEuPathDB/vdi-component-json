@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.veupathdb.vdi"
-version = "1.0.2"
+version = "1.0.3"
 description = "JSON processing library for VDI projects"
 
 repositories {
@@ -13,13 +13,14 @@ repositories {
 }
 
 dependencies {
-  api("com.fasterxml.jackson.core:jackson-core:2.17.0")
-  api("com.fasterxml.jackson.core:jackson-databind:2.17.0")
-  api("com.fasterxml.jackson.core:jackson-annotations:2.17.0")
-  api("com.fasterxml.jackson.module:jackson-module-kotlin:2.17.0")
-  api("com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.0")
-  api("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.0")
-  api("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.0")
+  api(platform("com.fasterxml.jackson:jackson-bom:2.18.3"))
+  api("com.fasterxml.jackson.core:jackson-core")
+  api("com.fasterxml.jackson.core:jackson-databind")
+  api("com.fasterxml.jackson.core:jackson-annotations")
+  api("com.fasterxml.jackson.module:jackson-module-kotlin")
+  api("com.fasterxml.jackson.module:jackson-module-parameter-names")
+  api("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
+  api("com.fasterxml.jackson.datatype:jackson-datatype-jdk8")
 }
 
 kotlin {
