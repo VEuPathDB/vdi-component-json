@@ -1,11 +1,11 @@
 plugins {
-  kotlin("jvm") version "1.9.23"
-  id("org.jetbrains.dokka") version "1.9.20"
+  kotlin("jvm") version "2.1.20"
+  id("org.jetbrains.dokka") version "2.0.0"
   `maven-publish`
 }
 
 group = "org.veupathdb.vdi"
-version = "1.0.3"
+version = "1.0.4"
 description = "JSON processing library for VDI projects"
 
 repositories {
@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-  api(platform("com.fasterxml.jackson:jackson-bom:2.18.3"))
+  api(platform("com.fasterxml.jackson:jackson-bom:2.19.0"))
   api("com.fasterxml.jackson.core:jackson-core")
   api("com.fasterxml.jackson.core:jackson-databind")
   api("com.fasterxml.jackson.core:jackson-annotations")
@@ -24,7 +24,7 @@ dependencies {
 }
 
 kotlin {
-  jvmToolchain(18)
+  jvmToolchain(21)
 }
 
 java {
