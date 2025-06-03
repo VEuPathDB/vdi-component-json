@@ -8,6 +8,9 @@
 :lib-version: 1.0.4
 :lib-feature: 1.0.0
 
+[IMPORTANT]
+This repository has been merged into the primary VDI service repo.
+
 image:https://img.shields.io/github/license/{gh-group}/{gh-name}[title="License"]
 image:https://img.shields.io/badge/docs-dokka-ff69b4[link="https://{gh-group}.github.io/{gh-name}/dokka/{lib-feature}/{lib-name}/{lib-package}/index.html"]
 image:https://img.shields.io/github/v/tag/VEuPathDB/vdi-component-json[GitHub tag (latest SemVer)]
